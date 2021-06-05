@@ -75,14 +75,14 @@ section {
 }
 
 .navbar__menu .menu__link {
-    display: block;
+    /* display: block; */
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
     color: #000;
 }
 
-.navbar__menu .menu__link:hover {
+.navbar__menu .menu__link:hover,.active-link{
     background: #333;
     color: #fff;
     transition: ease 0.3s all;
